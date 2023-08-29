@@ -1,0 +1,8 @@
+--04/05/2023--
+
+Things to focus on once learning STL=>
+
+1. Vectors and Arrays: revert back to the old video lectures in the DSA series.
+2. Decimal to Binary vv: learn this again.
+3. Revise all patterns.
+4. Solve related LeetCode questions.
