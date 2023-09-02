@@ -1,0 +1,43 @@
+Hello #connections!
+
+This is my first post on this platform! I am elated to announce that I created a terminal Tic-Tac-Toe game written solely in C++ and uses the bare fundamentals of coding, like 'for' and 'while' loops, a 2D array and a few logical functions.
+
+
+
+Github repository: https://github.com/acashgirii/ticTacToe
+
+
+
+The motivation to create it came to me rather randomly and I really wanted to test out whether I can create a program which can be called as a 'game', even though it might be very crude in it's form. Nonetheless, it took me the whole night debugging errors and looking for ways to minimize the code space and develop the logic. 
+
+This is how my code works:
+
+
+
+1. A 3x3 matrix is created out of a 2D array. This is the play space.
+
+2. There are two players, User1 being the 'x' player and User2 being the 'o' player.
+
+3. The users input the value of the co-ordinate in the matrix they want to place their respective symbols at.
+
+4. A Boolean variable is initialized as 'false'. If either of the logical functions (discussed below) turn 'true', it also sets to 'true' and hence, a player wins.
+
+5. After each player fills up their entry into the matrix, the logical status of their game is displayed i.e, 0, if the move they performed did not result in them winning the game and 1, if they won the game.
+
+6. Logical functions 'userWins' and 'user2Wins' contain the various combinations under which a specific player can win. These are called to check whether either of the users managed to get their symbol at three collinear matrix elements(horizontal, vertical or diagonal) or not.
+
+(a)If yes, the game ends and the concerned user is the winner.
+
+(b)If no, then the game continues on. Also, if no user manages to win, the game ends in a tie.
+
+
+
+What are the further improvements I want to undertake in this project:
+
+
+
+1. An option by which the players can select their own symbol, i.e. whether they wish to be 'x' or 'o'.
+
+2. A better display of the play space as a proper table rather than just being a matrix.
+
+3. A single player mode where the other player is the computer (this is by far the most intimidating vision I have for this but till yesterday even making a two player version seemed quite daunting!).
